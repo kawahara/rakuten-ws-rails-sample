@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: MtavE6A+Poha2H9cuN6nCRksHGLa9kBjmBvsmaxFRYikQ7MRjFG/BAZqA0IHtLhleMpZDBJW6ZH1k90T4Qd8Yw70d778YYuVZNnsAMVL5VjIloouzMgNoiYIXYiyfZck3bOc02htzWhvwcOKRPmk8P19L4I/mfs1FUTLyOPyMCM=
+  app: boiling-badlands-1322
+  on:
+    repo: BizzApp20130906/rakuten-ws-rails-sample
