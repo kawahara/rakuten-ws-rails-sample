@@ -11,7 +11,7 @@ class ItemsearchController < ApplicationController
     @errorMeg = nil
 
     begin
-      data = httpClient.get_content('https://app.rakuten.co.jp/services/api/IchibaItem/Search/20130805', {
+      data = httpClient.get_content('https://app.rakuten.co.jp/services/api/IchibaItem/Search/20140222', {
           'applicationId' => '1025899060325418115',
           'affiliateId'   => '0dd78f8a.26c4c8c0.0dd78f8b.0ee811d2',
           'keyword'       => keyword
